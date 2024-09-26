@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project HTML CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="header">
+<nav>
+    <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#aPropos">A Propos</a></li>
+        <li><a href="#nosServices">Nos services</a></li>
+        <li><a href="#contactezNous">Contactez-Nous</a></li>
+    </ul>
+</nav>
+</header>
+
+<div class="banner">
+    <h1>BienVenue à l'hotel Kenza</h1>
+    <p>Votre destination de reves pour des vacances inoubliables</p>
+</div>
+
+<section id="aPropos">
+<h2>à propos</h2>
+<div class="aboutContainer">
+
+<div class="aboutImage">
+    <img src="assets\baniere.jpg" alt="image de about">
+</div>
+
+ <div class="aboutText">
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus sunt aut eum, quis suscipit debitis vero fugiat eligendi deleniti quos qui ipsa culpa inventore eos, dolorem facilis assumenda provident?</p>
+ </div>
+
+</div>
+</section>
+
+
+<section id="nosServices">
+<h2>Nos Services</h2>
+
+<div class="nosServicesContainer">
+
+    <div class="nosServicesText">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem architecto nesciunt, asperiores quo dolorem quia quasi inventore numquam officiis modi, quisquam dolore ducimus culpa dicta. Quidem nulla architecto odit? Modi.</p>
+    </div>
+
+    <div class="nosServicesImage">
+        <img src="assets\servicesImage.jpg" alt="image de nos services">
+    </div>
+
+</div>
+</section>
+
+
+<section id="contactezNous">
+<h2> Contactez nous</h2>
+
+<form action="">
+    <label for="nom-complet">Nom Complet :</label>
+    <input type="text" required id="nom-complet" name="nom-complet">
+
+    <label for="Email">Email :</label>
+    <input type="email" required id="Email" name="Email">
+
+    <label for="NumTel">Numéro de Téléphone</label>
+    <input type="tel" required id="NumTel" name="NumTel">
+
+    <label for="Password">Mot de passe :</label>
+    <input type="password" required id="Password" name="Password">
+
+    <label for="Description">Description :</label>
+    <textarea name="Description" id="Description" type="text" required  cols="50" rows="4"></textarea>
+
+    <div class="sex">
+        <label for="Sexe">Sexe:</label>
+        <label for="homme">Homme </label>
+        <input type="radio" value="Homme" name="Sexe" id="homme" required >
+        <label for="femme">Femme </label>
+        <input type="radio" value="Femme" name="Sexe" id="femme" required>
+    </div>
+   
+    <input type="submit" value="Envoyer" >
+
+</form>
+
+
+</section>
+
+<footer>
+    &copy;2024 Kenza 
+</footer>
+
+
+</body>
+</html>
